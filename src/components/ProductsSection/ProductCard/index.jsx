@@ -3,8 +3,8 @@ export const ProductCard = ({title, image, price}) => {
         <>
             <div>
                 <img src={image} alt={`Produto ${title}`} />
-                <h3>{title}</h3>
-                <p>R${price.toFixed(2).replace(".", ",")}</p>
+                <h3 className="title3">{title}</h3>
+                <p className="price">R${price.toFixed(2).replace(".", ",")}</p>
             </div>
         </>
     )
