@@ -4,7 +4,7 @@ export const FormNewsletter = () => {
             <input type="email"
             placeholder="e-mail"
              required />
-            <button type="submit">CADASTRE-SE</button>
+            <button type="submit" className="btn">CADASTRE-SE</button>
         </form>
     )
 }
