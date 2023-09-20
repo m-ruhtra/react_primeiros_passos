@@ -1,19 +1,18 @@
-import { Header } from "../../components/Header"
-import { BannerSection } from "../../components/BannerSection"
-import { CategoriesSection } from "../../components/CategoriesSection"
-import { ProductsSection } from "../../components/ProductsSection"
-import { FormSection } from "../../components/FormSection"
-import { Footer } from "../../components/Footer"
+import { BannerSection } from "../../components/sections/BannerSection"
+import { CategoriesSection } from "../../components/sections/CategoriesSection"
+import { ProductsSection } from "../../components/sections/ProductsSection"
+import { FormSection } from "../../components/sections/FormSection"
+import { DefaultTemplate } from "../../components/DefaultTemplate"
 
 export const LadingPage = () => {
     return (
         <>
-            <Header/>
-            <BannerSection/>
-            <CategoriesSection/>
-            <ProductsSection/>
-            <FormSection/>
-            <Footer/>
+            <DefaultTemplate>
+                <BannerSection/>
+                <CategoriesSection/>
+                <ProductsSection/>
+                <FormSection/>
+            </DefaultTemplate>
         </>
     )
 }
