@@ -1,5 +1,5 @@
 import { LadingPage } from "./pages/LadingPage"
-
+import "./styles/index.css"
 
 function App() {
  
