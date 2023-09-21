@@ -1,5 +1,6 @@
 export const FormNewsletter = () => {
     return (
+        
         <form className="formulario">
             <input type="email"
             placeholder="e-mail"
